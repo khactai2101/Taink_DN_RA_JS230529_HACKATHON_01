@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.logo {
+  display: none;
+}
 header {
   width: 100%;
 }
@@ -153,5 +156,15 @@ header {
   border-radius: 15px;
   padding: 4px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
+  .nav {
+    display: block;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: black;
+  }
+  .logo {
+    display: block;
+    color: white;
+  }
 }
